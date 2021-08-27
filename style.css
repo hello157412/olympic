@@ -1,0 +1,15 @@
+h1
+{
+	color:rgb(255, 255, 255); 
+	font-size: 40px;
+}
+.body_backgrund {
+  background-image: url(felixtie.gif);
+}
+
+#myCanvas{
+border-width: 20px;
+border-style: outset;
+background-color: rgb(255, 255, 255);
+background-position: center;
+}

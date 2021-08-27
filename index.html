@@ -1,0 +1,65 @@
+<html>
+<head>
+
+<title>C81</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="body_backgrund">
+
+<center>
+	<h1>OLYMPIC LOGO</h1>
+	<canvas id="myCanvas" width="450" height="450"></canvas>
+    <br>
+    <br>
+    <button id="play button" ondblclick="openolympicwebsite()"></button>
+</center>
+
+<script>
+   canvas=document.getElementById("myCanvas");
+    ctx=canvas.getContext("2d");
+    
+    color="blue";
+    ctx.beginPath();
+    ctx.strokeStyle=color;
+    ctx.lineWidth=2;
+    ctx.arc(215,210,40,0,2*Math.PI);
+    ctx.stroke();
+    
+    color="black"
+    ctx.beginPath();
+    ctx.strokeStyle=color;
+    ctx.lineWidth=2;
+    ctx.arc(300,210,40,0,2*Math.PI);
+    ctx.stroke();
+    
+    color="red"
+    ctx.beginPath();
+    ctx.strokeStyle=color;
+    ctx.lineWidth=2;
+    ctx.arc(385,205,40,0,2*Math.PI);
+    ctx.stroke();
+    
+    color="gold"
+    ctx.beginPath();
+    ctx.strokeStyle=color;
+    ctx.lineWidth=2;
+    ctx.arc(260,270,40,0,2*Math.PI);
+    ctx.stroke();
+    
+    color="green"
+    ctx.beginPath();
+    ctx.strokeStyle=color;
+    ctx.lineWidth=2;
+    ctx.arc(350,265,40,0,2*Math.PI);
+    ctx.stroke();
+     
+    openolympicwebsite()
+  {
+    window.open("https://olympics.com/en/?utm_source=google&utm_medium=essence-paid&utm_campaign=google_cpc_long-tail_bau_hybrid_english&utm_content=google_cpc_in_long-tail_bau_hybrid_english_na_na_pure-brand-exact_na&gclid=CjwKCAjwmqKJBhAWEiwAMvGt6HZYHCbXMucWVcda9V5xoCte9vTNg7gQPhW5nzR7aX706FjmrkwpZRoCN0IQAvD_BwE&gclsrc=aw.ds");
+  }
+    </script>
+
+</body>
